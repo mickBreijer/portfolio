@@ -1,0 +1,91 @@
+body{
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image{
+    background-image: url(/img/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .hero-text{
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .hero-text p{
+    font-size: 30px;
+    font-weight: 500px;
+    line-height-step: 10px;
+  }
+  
+  .hero-image .hero-btn{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top:10px;
+    display: inline-block;
+  
+  }
+  
+  .hero-image .hero-btn:hover{
+    background: white;
+    color: black;
+  }
+/* MOBILE */
+@media (min-width: 480px) and (max-width:767px) {
+    .hero-image {
+      background-image: url(/img/mountain.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      align-content: flex-start;
+      justify-content: flex-start;
+  }
+    }
+  
+  /* TABLET */
+  @media (min-width: 768px) and (max-width:1023px) {
+    body {
+      background-image: url(/img/mountain.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      align-content: flex-start;
+      justify-content: flex-start;
+  }
+    }
+  .birdbot1{
+    width: 200px;
+    height: 250px;
+    padding-inline: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+
+  }
+
+  
